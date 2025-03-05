@@ -1,4 +1,5 @@
 Hello, my name is Zheng Bowen.
-I like drinking tea and eating chocolate biscuits.
-I am enjoying studying IBI1 in person. 
-I am happy that I can push my repo from Visual Studio Code to GitHub
+I am from Shandong, China.
+I like drinking tea and eating chips.
+I am enjoying studying IBI1. 
+I am happy that I can push my repo from Visual Studio Code to GitHub.
