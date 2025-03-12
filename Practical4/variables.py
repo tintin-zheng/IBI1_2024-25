@@ -38,5 +38,9 @@ print(f"X-{X_1} and Y-{Y_1} is W-{W_1}",
       
 #the truth table for W
 """
+X-True and Y-False is W-False
+X-False and Y-True is W-False
+X-True and Y-True is W-True
+X-False and Y-False is W-False
 
 """
