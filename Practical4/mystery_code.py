@@ -18,6 +18,7 @@ progress=0
 '''creat a while loop,
 	if the progress is larger than or equal to 0,
 	the value of progress will add 1
+	count the number of attempts
 '''
 while progress>=0:
 	progress+=1
