@@ -7,7 +7,7 @@ bmi = weight / height**2
 #decide the BMI category
 if bmi < 18.5:
     print(f"Your bmi is {bmi}, you are underweight")
-elif bmi < 30:
+elif bmi <= 30:
     print(f"Your bmi is {bmi}, you are normal weight")
 else:
     print(f"Your bmi is {bmi}, you are obese")
