@@ -74,3 +74,5 @@ for labels_china, china_provinces in dict(zip(labels_china, china_provinces)).it
     plt.text(labels_china, china_provinces, str(china_provinces))
 #show the bar plot
 plt.show()
+
+

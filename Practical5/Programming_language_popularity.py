@@ -25,7 +25,8 @@ for key, value in popularity.items():
 #show the plot
 plt.show()
 
-#choose a language to check
+#choose a language to check. I choose python, the third language in the dictionary,
+#and you cna change it to any other langusges you like.
 language = "python"
 #print the percentage of the users of the chosen language
 print(f"The percentage of the users of {language} is {popularity[language]}.")
