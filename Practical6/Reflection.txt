@@ -1,0 +1,14 @@
+This week's practical was quite challenging, but I found it incredibly exciting.
+I learned more about programming and created a disease spread model that is closely related to the real world. 
+I realized that similar complex models are extremely useful in real-life disease outbreaks, such as COVID-19. 
+This made me feel that the knowledge I'm learning is highly practical, which greatly motivated me!  
+
+Additionally, beyond just meeting the requirements, 
+I explored how to make Matplotlib generate animation, making my program more intuitive and user-friendly.  
+
+Of course, I still have many ideas to explore, such as allowing vaccinated individuals to have a certain probability of infection,
+multiple outbreak points, and introducing reinfection probabilities for recovered individuals.  
+
+In the future, I plan to further explore these ideas and continue improving my program.
+
+27/3/2025
