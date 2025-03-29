@@ -71,9 +71,6 @@ plt.show()
 camp = ListedColormap(["white", "red", "green"])
 # initialize the population array
 population = np.zeros((100,100))
-# randomly select the location of the outbreak
-outbreak = np.random.choice(range(100), 2)
-population[outbreak[0], outbreak[1]] = 1
 
 # open the interactive mode
 plt.ion()
@@ -92,6 +89,12 @@ vaccinated_total = int(100 * 100 * vaccinated_rate)
 vaccinated_indices = np.random.choice(100 * 100, vaccinated_total, replace=False)
 vaccinated_x, vaccinated_y = np.unravel_index(vaccinated_indices, (100, 100))
 population[vaccinated_x, vaccinated_y] = 2
+
+# randomly select the location of the outbreak
+outbreak = np.random.choice(range(100), 2)
+while population[outbreak[0], outbreak[1]] == 2:
+    outbreak = np.random.choice(range(100), 2)
+population[outbreak[0], outbreak[1]] = 1
 
 # creat a loop to loop 100 times
 for time_range in range(1, 101):
