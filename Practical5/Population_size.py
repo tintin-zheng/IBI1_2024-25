@@ -1,3 +1,15 @@
+"""
+pseudocode:
+    import the matplotlib library
+    creat two lists to store the data from UK and China
+    sort the data in the lists
+    print the sorted lists
+    creat two pie charts displaying the distribution of population sizes separately in UK countries and Zhejiang-neighbouring provinces
+    show the pie chart
+    try another plot to display the data
+    use bar plot 
+    show the bar plot
+"""
 #import the matplotlib library
 import matplotlib.pyplot as plt
 

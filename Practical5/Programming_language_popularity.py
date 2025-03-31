@@ -1,3 +1,16 @@
+"""
+pseudocode:
+    import the library for a bar plot plotting
+    creat a dictionary to store the data
+    print the dictionary
+    creat the bar plot
+    import the data from the dictionary and choose a color for the bars
+    add the title and labels to the plot
+    add the data on the top of the bars
+    show the plot
+    choose a language to check. 
+    print the percentage of the users of the chosen language
+"""
 #import the matplotlib library for a bar plot plotting
 import matplotlib.pyplot as plt
 
@@ -26,7 +39,7 @@ for key, value in popularity.items():
 plt.show()
 
 #choose a language to check. I choose python, the third language in the dictionary,
-#and you cna change it to any other langusges you like.
+#and you can change it to any other langusges you like.
 language = "python"
 #print the percentage of the users of the chosen language
 print(f"The percentage of the users of {language} is {popularity[language]}.")
