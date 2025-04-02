@@ -1,3 +1,14 @@
+"""
+pseoducode:
+    import the necessary libraries
+    open the file in read mode
+        1. store the gene name and sequence in a dictionary
+        2. search for the TATA box in the sequence, if found, store the gene name and its sequence in a new dictionary
+    output the result in a new file
+
+    for more details, please refer to the comments below
+
+"""
 # import the necessary librarie
 import re
 # open the file in read mode
