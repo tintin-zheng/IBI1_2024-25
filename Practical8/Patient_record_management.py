@@ -7,15 +7,17 @@ defsequence name, age, last_admission_date, and medical_history
 
 # Patient record management system
 class Patients ():
+    patients_info = {}
     #include name, age, the last admission date, and the str to describe the patient's medical history
     def __init__(self, name, age, last_admission_date, medical_history):
         self.name = name
         self.age = age
         self.last_visit_date = last_admission_date
         self.history = medical_history
-        self.patients = []
-        # append the patient to the list
-        self.patients.append(self)
+        self.add_patient()
+
+    def add_patient(self):
+        Patients.patients_info[self.name] = self
 
 
     # add a method to print the patient's information
@@ -32,4 +34,5 @@ patient2 = Patients("Jane Smith", 25, "2025-04-09", "Allergic to penicillin")
 patient3 = Patients("Tom", 40, "2025-04-10", "No known allergies")
 patient1.print_patients()
 patient2.print_patients()
+patient3.print_patients()
 
