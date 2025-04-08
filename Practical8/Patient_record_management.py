@@ -7,6 +7,7 @@ defsequence name, age, last_admission_date, and medical_history
 
 # Patient record management system
 class Patients ():
+    # creat a empty dictionary to store the patients information
     patients_info = {}
     #include name, age, the last admission date, and the str to describe the patient's medical history
     def __init__(self, name, age, last_admission_date, medical_history):
@@ -15,7 +16,8 @@ class Patients ():
         self.last_visit_date = last_admission_date
         self.history = medical_history
         self.add_patient()
-
+    
+    # def the function to add the patients into the dictionary
     def add_patient(self):
         Patients.patients_info[self.name] = self
 
