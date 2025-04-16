@@ -25,7 +25,7 @@ while True:
         print("please enter the correct splice donor/acceptor site (GTAG or GCAG or ATAC)")
 
 # open the file in read mode
-with open("D:\学习\大一下学习\IBI\IBI1_2024-25\IBI1_2024-25\Practical7\Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa", "r") as input_file:
+with open("Saccharomyces_cerevisiae.R64-1-1.cdna.all.fa", "r") as input_file:
 
     # initialize the variables
     gene_name = None
