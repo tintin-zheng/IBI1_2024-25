@@ -1,0 +1,4 @@
+question：How has the relationship between the DALYs in China and the UK changed over time? Are they becoming more similar, less similar?
+code for this question: 43-52
+discussion about results: The results indicate that the gap between China and the UK is narrowing. This correspond to my expectations. As the birthplace of the Industrial Revolution and a developed country, Britain has a complete medical system and social welfare system. Although China started late in development, its speed is fast and it is constantly catching up with the footsteps of developed countries. This is in line with the trend of narrowing the gap.
+
