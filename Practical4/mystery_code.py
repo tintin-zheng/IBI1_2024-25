@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:Using the computer to creat two random integers,
+# Answer:Using the computer to creat two random integers (range from 1-6),
 # to see whether they are the equal and 
 # record the number of attempts.
 
