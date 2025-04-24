@@ -70,6 +70,7 @@ world_by_continent = {
        "Thailand", "Turkey", "Turkmenistan", "United Arab Emirates", "Uzbekistan", 
        "Vietnam", "Yemen", "East Timor"
    ],
+
    
    "Africa": [
        "Algeria", "Angola", "Benin", "Botswana", "Burkina Faso", "Burundi", 
