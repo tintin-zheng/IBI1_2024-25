@@ -49,6 +49,9 @@ merged_data["Difference"] = merged_data.DALYs_UK - merged_data.DALYs_China
 # plot the difference value of DALYs between UK and China
 plt.plot(merged_data.Year, merged_data.Difference, 'r+')
 plt.xticks(merged_data.Year, rotation=-45)
+plt.title("Difference of DALYs between UK and China")
+plt.xlabel("Year")
+plt.ylabel("Difference of DALYs")
 plt.show()
 
 # answer to the question 2

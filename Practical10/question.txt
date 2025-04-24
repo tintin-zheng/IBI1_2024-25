@@ -1,9 +1,9 @@
 question 1：How has the relationship between the DALYs in China and the UK changed over time? Are they becoming more similar, less similar?
-code for this question: 43-52
+code for this question: 43-55
 discussion about results: The results indicate that the gap between China and the UK is narrowing. This correspond to my expectations. As the birthplace of the Industrial Revolution and a developed country, Britain has a complete medical system and social welfare system. Although China started late in development, its speed is fast and it is constantly catching up with the footsteps of developed countries. This is in line with the trend of narrowing the gap.
 
 question 2: What are the differences in data between different continents?
-code for this question: 54-132
+code for this question: 57-136
 discussion about results: The results indicate that the uneven data across continents. For examples, Africa has the highest value and Europe has the lowest value. This to some extent reflects the level of economic and social development of different continents during the statistical period.
 
 
