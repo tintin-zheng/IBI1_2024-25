@@ -12,10 +12,10 @@ dalys_data = pd.read_csv("dalys-rate-from-all-causes.csv")
 #  showing the third column for the first 10 rows
 print(dalys_data.iloc[0:10, 2]) # the 10th year is 1999
 
-# use the Boolean to show DALYs for all countries in 1999
-# create a boolean array to filter the data for the year 1999
-bool_array = dalys_data["Year"] == 1999
-# print the DALYs for all countries in 1999
+# use the Boolean to show DALYs for all countries in 1990
+# create a boolean array to filter the data for the year 1990
+bool_array = dalys_data["Year"] == 1990
+# print the DALYs for all countries in 1990
 print(dalys_data.loc[bool_array, "DALYs"])
 
 # create a new dataframe to store the data of UK
