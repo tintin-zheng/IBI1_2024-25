@@ -37,6 +37,9 @@ else:
 # create a plot showing the DALYs over time in UK
 plt.plot(uk.Year, uk.DALYs, 'r+')
 plt.xticks(uk.Year, rotation=-45)
+plt.title("DALYs over time in UK")
+plt.xlabel("Year")
+plt.ylabel("DALYs")
 plt.show()
 
 
