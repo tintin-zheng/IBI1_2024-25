@@ -14,7 +14,9 @@ pseudocode:
 """
 # import the necessary librarie
 import re
-
+import os
+# change the working directory to the location of the script
+os.chdir("Practical7")
 # receive the input splice donor/acceptor site from the user
 while True:
     splice_site = input("Please enter the splice donor/acceptor site: ")
