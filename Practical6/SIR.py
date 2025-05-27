@@ -47,6 +47,7 @@ for i in range(1,1001):
     I.append(i_new)
     R.append(r_new)
 # plot the data
+plt.figure( figsize =(6,4),dpi=150)
 plt.plot(range(1001), S, color = "red", label = "Susceptible")
 plt.plot(range(1001), I, color = "darkblue", label = "Infected")
 plt.plot(range(1001), R, color = "green", label = "Recovered")
@@ -54,4 +55,5 @@ plt.xlabel("Days")
 plt.ylabel("Number of people")
 plt.title("SIR model")
 plt.legend()
+plt.savefig("SIR.png")
 plt.show()
